@@ -1,0 +1,11 @@
+@import "./font";
+
+body {
+  font-family: "Rubik", sans-serif;
+  background: #39b7e8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
