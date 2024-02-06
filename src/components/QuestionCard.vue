@@ -9,7 +9,7 @@
       :class="{ selected: isSelected(option.id) }"
       @click="selectOption(option.id, option.score || 0)"
     >
-      {{ option.text }}{{ option.score }}
+      {{ option.text }}
     </div>
     <div v-if="question.id === 7 && isSelected(3)" class="option-input">
       <input
